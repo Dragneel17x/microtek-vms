@@ -1,0 +1,32 @@
+[
+  {
+    "payTerm": "C000-100% Advance"
+  },
+  {
+    "payTerm": "C001-100% within 30 Days"
+  },
+  {
+    "payTerm": "C002-100% within 45 Days"
+  },
+  {
+    "payTerm": "C003-25% Advance & 75% on BL"
+  },
+  {
+    "payTerm": "C004-100% against Letter of Credit"
+  },
+  {
+    "payTerm": "C005-100% within 60 Days"
+  },
+  {
+    "payTerm": "C006-50% Advance & 50% on BL"
+  },
+  {
+    "payTerm": "C007-Part Advance & balance against Irrevocable LC"
+  },
+  {
+    "payTerm": "C008-Bank Letter of Credit"
+  },
+  {
+    "payTerm": "C009-100% within 7 Days"
+  }
+]

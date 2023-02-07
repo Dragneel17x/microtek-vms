@@ -1,0 +1,1502 @@
+[
+  {
+    "transportationZone": "AP00000031-Secunderabad"
+  },
+  {
+    "transportationZone": "AP00000032-Penukonda"
+  },
+  {
+    "transportationZone": "AP00000033-Hyderabad"
+  },
+  {
+    "transportationZone": "AR00000001-Arunchal Pradesh"
+  },
+  {
+    "transportationZone": "AR00000002-Naharlagun"
+  },
+  {
+    "transportationZone": "AS00000000-Assam"
+  },
+  {
+    "transportationZone": "AS00000001-Guwahati"
+  },
+  {
+    "transportationZone": "AS00000002-Barpeta"
+  },
+  {
+    "transportationZone": "AS00000003-Bijay Nagar"
+  },
+  {
+    "transportationZone": "AS00000004-Bongaigaon"
+  },
+  {
+    "transportationZone": "AS00000005-Darrang"
+  },
+  {
+    "transportationZone": "AS00000006-Dhekiajuli"
+  },
+  {
+    "transportationZone": "AS00000007-Dibrugarh"
+  },
+  {
+    "transportationZone": "AS00000008-Fatashil"
+  },
+  {
+    "transportationZone": "AS00000009-Goalpara"
+  },
+  {
+    "transportationZone": "AS00000010-Hojai"
+  },
+  {
+    "transportationZone": "AS00000011-Japorigog"
+  },
+  {
+    "transportationZone": "AS00000012-Jorhat"
+  },
+  {
+    "transportationZone": "AS00000013-Karimganj"
+  },
+  {
+    "transportationZone": "AS00000014-Kharupetia"
+  },
+  {
+    "transportationZone": "AS00000015-Kokrajhar"
+  },
+  {
+    "transportationZone": "AS00000016-Lakhtokia"
+  },
+  {
+    "transportationZone": "AS00000017-Moranhat"
+  },
+  {
+    "transportationZone": "AS00000018-Nagaon"
+  },
+  {
+    "transportationZone": "AS00000019-Sagolia"
+  },
+  {
+    "transportationZone": "AS00000020-Salmara"
+  },
+  {
+    "transportationZone": "AS00000021-Silchar"
+  },
+  {
+    "transportationZone": "AS00000022-Sivasagar"
+  },
+  {
+    "transportationZone": "AS00000023-Tezpur"
+  },
+  {
+    "transportationZone": "AS00000024-Tinsukia"
+  },
+  {
+    "transportationZone": "AS00000025-Ulubari"
+  },
+  {
+    "transportationZone": "AS00000026-Ananda Nagar"
+  },
+  {
+    "transportationZone": "AS00000027-Lakhimpur"
+  },
+  {
+    "transportationZone": "AS00000028-North Lakhimpur"
+  },
+  {
+    "transportationZone": "AS00000029-Dhemaji"
+  },
+  {
+    "transportationZone": "AS00000030-Sawkuchi"
+  },
+  {
+    "transportationZone": "AS00000031-Wire"
+  },
+  {
+    "transportationZone": "AS00000032-Nalbari"
+  },
+  {
+    "transportationZone": "AS00000033-Mangaldoi"
+  },
+  {
+    "transportationZone": "AS00000034-Hatsingimari"
+  },
+  {
+    "transportationZone": "AS00000035-Sonitpur"
+  },
+  {
+    "transportationZone": "AS00000036-Sonari"
+  },
+  {
+    "transportationZone": "AS00000037-Bishwanath"
+  },
+  {
+    "transportationZone": "AS00000038-Tingra"
+  },
+  {
+    "transportationZone": "AS00000039-Dhubri"
+  },
+  {
+    "transportationZone": "AS00000040-Sonari Town, Charaid"
+  },
+  {
+    "transportationZone": "AS00000041-Morigaon"
+  },
+  {
+    "transportationZone": "AS00000042-Karbi Anglong"
+  },
+  {
+    "transportationZone": "AS00000043-Bengenakhowa,Golagha"
+  },
+  {
+    "transportationZone": "AS00000044-Golaghat"
+  },
+  {
+    "transportationZone": "AS00000045-Kamrup"
+  },
+  {
+    "transportationZone": "AS00000046-Amguri"
+  },
+  {
+    "transportationZone": "AS00000047-Harbargaon"
+  },
+  {
+    "transportationZone": "AS00000048-Rehabari"
+  },
+  {
+    "transportationZone": "AS00000049-Bilasipara"
+  },
+  {
+    "transportationZone": "AS00000050-Papum"
+  },
+  {
+    "transportationZone": "AS00000051-Domdoma"
+  },
+  {
+    "transportationZone": "AS00000052-Rangapara"
+  },
+  {
+    "transportationZone": "AS00000053-Dispur"
+  },
+  {
+    "transportationZone": "AS00000054-Rangia"
+  },
+  {
+    "transportationZone": "AS00000055-Beltola Tiniali"
+  },
+  {
+    "transportationZone": "AS00000056-Chapaguri"
+  },
+  {
+    "transportationZone": "AS00000057-Imphal"
+  },
+  {
+    "transportationZone": "AS00000058-Pathsala"
+  },
+  {
+    "transportationZone": "AS00000059-Rongia"
+  },
+  {
+    "transportationZone": "AS00000060-Mukalmua"
+  },
+  {
+    "transportationZone": "AS00000061-Bokakhat"
+  },
+  {
+    "transportationZone": "AS00000062-South Salmara Mancac"
+  },
+  {
+    "transportationZone": "AS00000063-Kamrup Metro"
+  },
+  {
+    "transportationZone": "AS00000064-Ri Bhoi"
+  },
+  {
+    "transportationZone": "AS00000065-Marigaon"
+  },
+  {
+    "transportationZone": "AS00000066-Thoubal"
+  },
+  {
+    "transportationZone": "AS00000067-Papum Pare"
+  },
+  {
+    "transportationZone": "AS00000068-Imphal West"
+  },
+  {
+    "transportationZone": "AS00000069-Aizawl"
+  },
+  {
+    "transportationZone": "AS00000070-Churachandpur"
+  },
+  {
+    "transportationZone": "AS00000071-North Tripura"
+  },
+  {
+    "transportationZone": "AS00000072-Dimapur"
+  },
+  {
+    "transportationZone": "AS00000073-Cachar"
+  },
+  {
+    "transportationZone": "AS00000074-Kohima"
+  },
+  {
+    "transportationZone": "AS00000075-East Khasi Hills"
+  },
+  {
+    "transportationZone": "BR00000000-Bihar"
+  },
+  {
+    "transportationZone": "BR00000001-Patna"
+  },
+  {
+    "transportationZone": "BR00000002-Araria"
+  },
+  {
+    "transportationZone": "BR00000003-Areraj"
+  },
+  {
+    "transportationZone": "BR00000004-Arrah"
+  },
+  {
+    "transportationZone": "BR00000005-Arwal"
+  },
+  {
+    "transportationZone": "BR00000006-Aurangabad"
+  },
+  {
+    "transportationZone": "BR00000007-Banka"
+  },
+  {
+    "transportationZone": "BR00000008-Barh"
+  },
+  {
+    "transportationZone": "BR00000009-Basopati"
+  },
+  {
+    "transportationZone": "BR00000010-Begusarai"
+  },
+  {
+    "transportationZone": "BR00000011-Bettiah"
+  },
+  {
+    "transportationZone": "BR00000012-Bhagalpur"
+  },
+  {
+    "transportationZone": "BR00000013-Biharsharif"
+  },
+  {
+    "transportationZone": "BR00000014-Buxar"
+  },
+  {
+    "transportationZone": "BR00000015-Champaran"
+  },
+  {
+    "transportationZone": "BR00000016-Chapra"
+  },
+  {
+    "transportationZone": "BR00000017-Darbhanga"
+  },
+  {
+    "transportationZone": "BR00000018-Dehri On Sone"
+  },
+  {
+    "transportationZone": "BR00000019-Forbesganj"
+  },
+  {
+    "transportationZone": "BR00000020-Gaya"
+  },
+  {
+    "transportationZone": "BR00000021-Gopalganj"
+  },
+  {
+    "transportationZone": "BR00000022-Hajipur"
+  },
+  {
+    "transportationZone": "BR00000023-Islampur"
+  },
+  {
+    "transportationZone": "BR00000024-Jamui"
+  },
+  {
+    "transportationZone": "BR00000025-Jaynagar"
+  },
+  {
+    "transportationZone": "BR00000026-Jehanabad"
+  },
+  {
+    "transportationZone": "BR00000027-Jhajha"
+  },
+  {
+    "transportationZone": "BR00000028-Kahalgaon"
+  },
+  {
+    "transportationZone": "BR00000029-Katihar"
+  },
+  {
+    "transportationZone": "BR00000030-Khagaria"
+  },
+  {
+    "transportationZone": "BR00000031-Kishanganj"
+  },
+  {
+    "transportationZone": "BR00000032-Lahariasarai"
+  },
+  {
+    "transportationZone": "BR00000033-Lakhisarai"
+  },
+  {
+    "transportationZone": "BR00000034-Madhepura"
+  },
+  {
+    "transportationZone": "BR00000035-Madhubani"
+  },
+  {
+    "transportationZone": "BR00000036-Maliyabagh"
+  },
+  {
+    "transportationZone": "BR00000037-Mirganj"
+  },
+  {
+    "transportationZone": "BR00000038-Motihari"
+  },
+  {
+    "transportationZone": "BR00000039-Munger"
+  },
+  {
+    "transportationZone": "BR00000040-Muzaffarpur"
+  },
+  {
+    "transportationZone": "BR00000041-Nawada"
+  },
+  {
+    "transportationZone": "BR00000042-Patori"
+  },
+  {
+    "transportationZone": "BR00000043-Purnea"
+  },
+  {
+    "transportationZone": "BR00000044-Raxaul"
+  },
+  {
+    "transportationZone": "BR00000045-Roshra"
+  },
+  {
+    "transportationZone": "BR00000046-Saharsa"
+  },
+  {
+    "transportationZone": "BR00000047-Samastipur"
+  },
+  {
+    "transportationZone": "BR00000048-Sasaram"
+  },
+  {
+    "transportationZone": "BR00000049-Shekpura"
+  },
+  {
+    "transportationZone": "BR00000050-Simrahibazar"
+  },
+  {
+    "transportationZone": "BR00000051-Sitamarhi"
+  },
+  {
+    "transportationZone": "BR00000052-Siwan"
+  },
+  {
+    "transportationZone": "BR00000053-Supoul"
+  },
+  {
+    "transportationZone": "BR00000054-Vaishali"
+  },
+  {
+    "transportationZone": "BR00000055-Vikramganj"
+  },
+  {
+    "transportationZone": "BR00000056-Tajpur"
+  },
+  {
+    "transportationZone": "BR00000057-Jandaha"
+  },
+  {
+    "transportationZone": "BR00000058-Sheohar"
+  },
+  {
+    "transportationZone": "BR00000059-Barachakia"
+  },
+  {
+    "transportationZone": "BR00000060-Khutona"
+  },
+  {
+    "transportationZone": "BR00000061-Kursela"
+  },
+  {
+    "transportationZone": "BR00000062-Supaul"
+  },
+  {
+    "transportationZone": "BR00000063-Bhojpur"
+  },
+  {
+    "transportationZone": "BR00000064-Rohtas"
+  },
+  {
+    "transportationZone": "BR00000065-Purbi Champaran"
+  },
+  {
+    "transportationZone": "BR00000066-Saran"
+  },
+  {
+    "transportationZone": "BR00000067-Pashchim Champaran"
+  },
+  {
+    "transportationZone": "BR00000068-Kaimur (Bhabua)"
+  },
+  {
+    "transportationZone": "BR00000069-Nalanda"
+  },
+  {
+    "transportationZone": "BR00000070-Sheikhpura"
+  },
+  {
+    "transportationZone": "BR00000071-Purnia"
+  },
+  {
+    "transportationZone": "CG00000000-Chhattisgarh"
+  },
+  {
+    "transportationZone": "CG00000001-Raipur"
+  },
+  {
+    "transportationZone": "CG00000002-Baikunpur"
+  },
+  {
+    "transportationZone": "CG00000003-Basna"
+  },
+  {
+    "transportationZone": "CG00000004-Bhilai"
+  },
+  {
+    "transportationZone": "CG00000005-Bilaspur"
+  },
+  {
+    "transportationZone": "CG00000006-Jagdalpur"
+  },
+  {
+    "transportationZone": "CG00000007-Korba"
+  },
+  {
+    "transportationZone": "CG00000008-Naila"
+  },
+  {
+    "transportationZone": "CG00000009-Raigarh"
+  },
+  {
+    "transportationZone": "CG00000010-Baloda"
+  },
+  {
+    "transportationZone": "CG00000011-Rajnandgao"
+  },
+  {
+    "transportationZone": "CG00000012-Rajnandgaon"
+  },
+  {
+    "transportationZone": "CG00000013-Bilaspu"
+  },
+  {
+    "transportationZone": "CG00000014-Ambikapur"
+  },
+  {
+    "transportationZone": "CG00000015-Surajpur"
+  },
+  {
+    "transportationZone": "CG00000016-Bagbahara"
+  },
+  {
+    "transportationZone": "CG00000017-Kondagaon"
+  },
+  {
+    "transportationZone": "CG00000018-Bastar"
+  },
+  {
+    "transportationZone": "CG00000019-Dantewada"
+  },
+  {
+    "transportationZone": "CG00000020-Janjgir-Champa"
+  },
+  {
+    "transportationZone": "CG00000021-Kanker"
+  },
+  {
+    "transportationZone": "CG00000022-Sukma"
+  },
+  {
+    "transportationZone": "CG00000023-Gaurella"
+  },
+  {
+    "transportationZone": "CG00000024-Baloda Bazar"
+  },
+  {
+    "transportationZone": "CG00000025-Mahasamund"
+  },
+  {
+    "transportationZone": "CG00000026-Dhamtari"
+  },
+  {
+    "transportationZone": "CG00000027-Gariyaband"
+  },
+  {
+    "transportationZone": "CG00000028-Narayanpur"
+  },
+  {
+    "transportationZone": "CG00000029-Durg"
+  },
+  {
+    "transportationZone": "CG00000030-Bemetara"
+  },
+  {
+    "transportationZone": "CG00000031-Balod"
+  },
+  {
+    "transportationZone": "CG00000032-Kabirdham"
+  },
+  {
+    "transportationZone": "CG00000033-Mungeli"
+  },
+  {
+    "transportationZone": "CG00000034-Gaurella Pendra Marw"
+  },
+  {
+    "transportationZone": "CG00000035-Surguja"
+  },
+  {
+    "transportationZone": "CG00000036-Korea"
+  },
+  {
+    "transportationZone": "CG00000037-Balrampur"
+  },
+  {
+    "transportationZone": "CG00000038-Jashpur"
+  },
+  {
+    "transportationZone": "CH00000001-Chandigarh"
+  },
+  {
+    "transportationZone": "DD00000000-Daman And Diu"
+  },
+  {
+    "transportationZone": "DL00000001-Delhi"
+  },
+  {
+    "transportationZone": "DL00000002-Peeragarhi"
+  },
+  {
+    "transportationZone": "DL00000003-Gitorni"
+  },
+  {
+    "transportationZone": "DL00000004-Uttam Nagar"
+  },
+  {
+    "transportationZone": "DL00000005-Nagli Puna"
+  },
+  {
+    "transportationZone": "DL00000006-Delhi 2 (Alipur)"
+  },
+  {
+    "transportationZone": "DL00000007-Narela"
+  },
+  {
+    "transportationZone": "DL00000008-Khizrabad"
+  },
+  {
+    "transportationZone": "DL00000009-Adhchini"
+  },
+  {
+    "transportationZone": "DL00000011-Alipur"
+  },
+  {
+    "transportationZone": "DL00000012-Amar Colony"
+  },
+  {
+    "transportationZone": "DL00000013-Andheri"
+  },
+  {
+    "transportationZone": "DL00000014-Ashok Nagar"
+  },
+  {
+    "transportationZone": "DL00000015-Ashok Vihar"
+  },
+  {
+    "transportationZone": "DL00000016-Ashoka Niketan"
+  },
+  {
+    "transportationZone": "DL00000017-Ashram"
+  },
+  {
+    "transportationZone": "DL00000018-Badarpur"
+  },
+  {
+    "transportationZone": "DL00000019-Begum Pur"
+  },
+  {
+    "transportationZone": "DL00000020-Baljeet Nagar"
+  },
+  {
+    "transportationZone": "DL00000021-Barakhamba Road"
+  },
+  {
+    "transportationZone": "DL00000022-Begum Pur"
+  },
+  {
+    "transportationZone": "DL00000023-Bhajanpura"
+  },
+  {
+    "transportationZone": "DL00000024-Bhikaji Cama Place"
+  },
+  {
+    "transportationZone": "DL00000025-Bhilai"
+  },
+  {
+    "transportationZone": "DL00000026-Bhogal"
+  },
+  {
+    "transportationZone": "DL00000027-Budh Vihar"
+  },
+  {
+    "transportationZone": "DL00000028-Burari"
+  },
+  {
+    "transportationZone": "DL00000029-Begum Pur"
+  },
+  {
+    "transportationZone": "DL00000030-Centra Delhi"
+  },
+  {
+    "transportationZone": "DL00000031-Chandani Chowk"
+  },
+  {
+    "transportationZone": "DL00000032-Chandigarh"
+  },
+  {
+    "transportationZone": "DL00000033-Chandni Chowk"
+  },
+  {
+    "transportationZone": "DL00000034-Chattarpur"
+  },
+  {
+    "transportationZone": "DL00000035-Chattarpur Extension"
+  },
+  {
+    "transportationZone": "DL00000036-Dariyaganj"
+  },
+  {
+    "transportationZone": "DL00000037-Dehradun Uttarakhand"
+  },
+  {
+    "transportationZone": "DL00000038-Delhi Ho - H54"
+  },
+  {
+    "transportationZone": "DL00000039-Delhi Ho - H56"
+  },
+  {
+    "transportationZone": "DL00000040-Begum Pur"
+  },
+  {
+    "transportationZone": "DL00000041-Dilshad Garden"
+  },
+  {
+    "transportationZone": "DL00000042-Durgapuri"
+  },
+  {
+    "transportationZone": "DL00000043-Durgapuri Shahdara"
+  },
+  {
+    "transportationZone": "DL00000044-Dwarka"
+  },
+  {
+    "transportationZone": "DL00000045-East Delhi"
+  },
+  {
+    "transportationZone": "DL00000046-East Kailash"
+  },
+  {
+    "transportationZone": "DL00000047-East Uttam Nagar"
+  },
+  {
+    "transportationZone": "DL00000048-Ganesh Nagar"
+  },
+  {
+    "transportationZone": "DL00000049-Gb Nagar"
+  },
+  {
+    "transportationZone": "DL00000050-Ghevra"
+  },
+  {
+    "transportationZone": "DL00000051-Ghitorni"
+  },
+  {
+    "transportationZone": "DL00000052-Begum Pur"
+  },
+  {
+    "transportationZone": "DL00000053-Govind Pura"
+  },
+  {
+    "transportationZone": "DL00000054-Greater Noida"
+  },
+  {
+    "transportationZone": "DL00000055-Gulabi Bagh"
+  },
+  {
+    "transportationZone": "DL00000056-Hari Nagar"
+  },
+  {
+    "transportationZone": "DL00000057-Jahangirpur"
+  },
+  {
+    "transportationZone": "DL00000058-Jai Vihar Extn"
+  },
+  {
+    "transportationZone": "DL00000059-Jaitpur Extension Pa"
+  },
+  {
+    "transportationZone": "DL00000060-Janakpuri"
+  },
+  {
+    "transportationZone": "DL00000061-Jasola"
+  },
+  {
+    "transportationZone": "DL00000062-Jawahar Nagar"
+  },
+  {
+    "transportationZone": "DL00000063-Jhalawar"
+  },
+  {
+    "transportationZone": "DL00000064-Begum Pur"
+  },
+  {
+    "transportationZone": "DL00000065-Kabul"
+  },
+  {
+    "transportationZone": "DL00000066-Kalkaji"
+  },
+  {
+    "transportationZone": "DL00000067-Kalkaji Main Road"
+  },
+  {
+    "transportationZone": "DL00000068-Kamla Nagar"
+  },
+  {
+    "transportationZone": "DL00000069-Kanjhawla"
+  },
+  {
+    "transportationZone": "DL00000070-Kanti Nagar"
+  },
+  {
+    "transportationZone": "DL00000071-Karala"
+  },
+  {
+    "transportationZone": "DL00000072-Karawal Nagar"
+  },
+  {
+    "transportationZone": "DL00000073-Karol Bagh"
+  },
+  {
+    "transportationZone": "DL00000074-Karolbagh"
+  },
+  {
+    "transportationZone": "DL00000075-Kashmere Gate"
+  },
+  {
+    "transportationZone": "DL00000076-Kashmiri Gate"
+  },
+  {
+    "transportationZone": "DL00000077-Begum Pur"
+  },
+  {
+    "transportationZone": "DL00000078-Kolkata"
+  },
+  {
+    "transportationZone": "DL00000079-Kotla Mubarakpur"
+  },
+  {
+    "transportationZone": "DL00000080-Krishna Park"
+  },
+  {
+    "transportationZone": "DL00000081-Kriti Nagar"
+  },
+  {
+    "transportationZone": "DL00000082-Lagpat Nagar2"
+  },
+  {
+    "transportationZone": "DL00000083-Lajpat Nagar"
+  },
+  {
+    "transportationZone": "DL00000084-Lajpat Rai Nagar"
+  },
+  {
+    "transportationZone": "DL00000085-Lajwanti Garden Chow"
+  },
+  {
+    "transportationZone": "DL00000086-Laxmi Nagar"
+  },
+  {
+    "transportationZone": "DL00000087-Lodhi Colony"
+  },
+  {
+    "transportationZone": "DL00000088-Lodhi Road"
+  },
+  {
+    "transportationZone": "DL00000089-Begum Pur"
+  },
+  {
+    "transportationZone": "DL00000090-Mahavir Enclave"
+  },
+  {
+    "transportationZone": "DL00000091-Maksudabad"
+  },
+  {
+    "transportationZone": "DL00000092-Malviya Nagar"
+  },
+  {
+    "transportationZone": "DL00000093-Mayapuri"
+  },
+  {
+    "transportationZone": "DL00000094-Mayur Vihar"
+  },
+  {
+    "transportationZone": "DL00000095-Meenakshi Garden"
+  },
+  {
+    "transportationZone": "DL00000096-Mehrauli"
+  },
+  {
+    "transportationZone": "DL00000097-Model Town"
+  },
+  {
+    "transportationZone": "DL00000098-Mohali"
+  },
+  {
+    "transportationZone": "DL00000099-Mubarakpur"
+  },
+  {
+    "transportationZone": "DL00000100-Mundaka"
+  },
+  {
+    "transportationZone": "DL00000101-Mundka"
+  },
+  {
+    "transportationZone": "DL00000102-Begum Pur"
+  },
+  {
+    "transportationZone": "DL00000103-Nahan"
+  },
+  {
+    "transportationZone": "DL00000104-Nalagarh"
+  },
+  {
+    "transportationZone": "DL00000105-Nand Nagari"
+  },
+  {
+    "transportationZone": "DL00000106-Nangloi"
+  },
+  {
+    "transportationZone": "DL00000107-Narela"
+  },
+  {
+    "transportationZone": "DL00000108-Neb Sarai"
+  },
+  {
+    "transportationZone": "DL00000109-Nehru Nagar"
+  },
+  {
+    "transportationZone": "DL00000110-Nehru Place"
+  },
+  {
+    "transportationZone": "DL00000111-New Delhi"
+  },
+  {
+    "transportationZone": "DL00000112-North Delhi"
+  },
+  {
+    "transportationZone": "DL00000113-North East Delhi"
+  },
+  {
+    "transportationZone": "DL00000114-North West"
+  },
+  {
+    "transportationZone": "DL00000115-Begum Pur"
+  },
+  {
+    "transportationZone": "DL00000116-Okhala"
+  },
+  {
+    "transportationZone": "DL00000117-Pahar Ganj"
+  },
+  {
+    "transportationZone": "DL00000118-Pahlad Pur"
+  },
+  {
+    "transportationZone": "DL00000119-Palam"
+  },
+  {
+    "transportationZone": "DL00000120-Palam Colony"
+  },
+  {
+    "transportationZone": "DL00000121-Pankha Road"
+  },
+  {
+    "transportationZone": "DL00000122-Parmanoo"
+  },
+  {
+    "transportationZone": "DL00000123-Paschim Vihar"
+  },
+  {
+    "transportationZone": "DL00000124-Patparganj"
+  },
+  {
+    "transportationZone": "DL00000125-Pitampura"
+  },
+  {
+    "transportationZone": "DL00000126-Pitampura North West"
+  },
+  {
+    "transportationZone": "DL00000127-Prtampura"
+  },
+  {
+    "transportationZone": "DL00000128-Begum Pur"
+  },
+  {
+    "transportationZone": "DL00000129-Punjabi Bagh Extenti"
+  },
+  {
+    "transportationZone": "DL00000130-Rabindra Nagar"
+  },
+  {
+    "transportationZone": "DL00000131-Rai"
+  },
+  {
+    "transportationZone": "DL00000132-Rajokari"
+  },
+  {
+    "transportationZone": "DL00000133-Rajouri Garden"
+  },
+  {
+    "transportationZone": "DL00000134-Rama Market"
+  },
+  {
+    "transportationZone": "DL00000135-Ramesh Nagar"
+  },
+  {
+    "transportationZone": "DL00000136-Rani Laxmi Bai Nagar"
+  },
+  {
+    "transportationZone": "DL00000137-Sadar Bazar"
+  },
+  {
+    "transportationZone": "DL00000138-Saket"
+  },
+  {
+    "transportationZone": "DL00000139-Sakur Basti"
+  },
+  {
+    "transportationZone": "DL00000140-Sanjay Gandhi Transp"
+  },
+  {
+    "transportationZone": "DL00000141-Begum Pur"
+  },
+  {
+    "transportationZone": "DL00000142-Sarva Priya Vihar"
+  },
+  {
+    "transportationZone": "DL00000143-Seemapuri"
+  },
+  {
+    "transportationZone": "DL00000144-Shadara"
+  },
+  {
+    "transportationZone": "DL00000145-Shahdara"
+  },
+  {
+    "transportationZone": "DL00000146-Shakarpur"
+  },
+  {
+    "transportationZone": "DL00000147-Shakarpur Uttar Prad"
+  },
+  {
+    "transportationZone": "DL00000148-Shanti Niketan"
+  },
+  {
+    "transportationZone": "DL00000149-Shastri Nagar"
+  },
+  {
+    "transportationZone": "DL00000150-Singhu Border"
+  },
+  {
+    "transportationZone": "DL00000151-South Delhi"
+  },
+  {
+    "transportationZone": "DL00000152-South West Delhi"
+  },
+  {
+    "transportationZone": "DL00000153-Subhash Palace"
+  },
+  {
+    "transportationZone": "DL00000154-Begum Pur"
+  },
+  {
+    "transportationZone": "DL00000155-Tri Nagar"
+  },
+  {
+    "transportationZone": "DL00000156-Udyog Nagar"
+  },
+  {
+    "transportationZone": "DL00000157-Uttam Nagar"
+  },
+  {
+    "transportationZone": "DL00000158-Vasant Kunj"
+  },
+  {
+    "transportationZone": "DL00000159-Vikas Marg"
+  },
+  {
+    "transportationZone": "DL00000160-Vikaspuri"
+  },
+  {
+    "transportationZone": "DL00000161-Wazir Pur"
+  },
+  {
+    "transportationZone": "DL00000162-West Azad Nagar"
+  },
+  {
+    "transportationZone": "DL00000163-West Delhi"
+  },
+  {
+    "transportationZone": "DL00000164-West Punjabi Bagh"
+  },
+  {
+    "transportationZone": "DL00000165-Yamuna Vihar"
+  },
+  {
+    "transportationZone": "DL00000166-Yusuf Sarai"
+  },
+  {
+    "transportationZone": "DL00000167-Delhiho-"
+  },
+  {
+    "transportationZone": "DL00000168-Centraldelhi"
+  },
+  {
+    "transportationZone": "DL00000169-Delhiho-"
+  },
+  {
+    "transportationZone": "DL00000170-Delhiho-"
+  },
+  {
+    "transportationZone": "DL00000171-Jaiviharextn"
+  },
+  {
+    "transportationZone": "DL00000172-Jaitpurextensionpart"
+  },
+  {
+    "transportationZone": "DL00000173-Govindpura"
+  },
+  {
+    "transportationZone": "DL00000174-Bhajanpura"
+  },
+  {
+    "transportationZone": "DL00000175-Ashoknagar"
+  },
+  {
+    "transportationZone": "DL00000176-Rameshnagar"
+  },
+  {
+    "transportationZone": "DL00000177-South"
+  },
+  {
+    "transportationZone": "DL00000178-Budhvihar"
+  },
+  {
+    "transportationZone": "DL00000179-Wazirpur"
+  },
+  {
+    "transportationZone": "DL00000180-Jasola"
+  },
+  {
+    "transportationZone": "DL00000181-Ashokvihar"
+  },
+  {
+    "transportationZone": "DL00000182-Kalkaji"
+  },
+  {
+    "transportationZone": "DL00000183-Amarcolony"
+  },
+  {
+    "transportationZone": "DL00000184-Uttamnagar"
+  },
+  {
+    "transportationZone": "DL00000185-Palam"
+  },
+  {
+    "transportationZone": "DL00000186-Saket"
+  },
+  {
+    "transportationZone": "DL00000187-Durgapurishahdara"
+  },
+  {
+    "transportationZone": "DL00000188-Kalkajimainroad"
+  },
+  {
+    "transportationZone": "DL00000189-Seemapuri"
+  },
+  {
+    "transportationZone": "DL00000190-Yusufsarai"
+  },
+  {
+    "transportationZone": "DL00000191-Ashokaniketan"
+  },
+  {
+    "transportationZone": "DL00000192-Lodhicolony"
+  },
+  {
+    "transportationZone": "DL00000193-Wazirpur"
+  },
+  {
+    "transportationZone": "DL00000194-Nebsarai"
+  },
+  {
+    "transportationZone": "DL00000195-Rabindranagar"
+  },
+  {
+    "transportationZone": "DL00000196-Kashmirigate"
+  },
+  {
+    "transportationZone": "DL00000197-Kamlanagar"
+  },
+  {
+    "transportationZone": "DL00000198-Nehrunagar"
+  },
+  {
+    "transportationZone": "DL00000199-Kantinagar"
+  },
+  {
+    "transportationZone": "DL00000200-Lajpatnagar"
+  },
+  {
+    "transportationZone": "DL00000201-Mayurvihar"
+  },
+  {
+    "transportationZone": "DL00000202-Modeltown"
+  },
+  {
+    "transportationZone": "DL00000203-Maksudabad"
+  },
+  {
+    "transportationZone": "DL00000204-Preetvihar"
+  },
+  {
+    "transportationZone": "DL00000205-Rajourigarden"
+  },
+  {
+    "transportationZone": "DL00000206-Vikasmarg"
+  },
+  {
+    "transportationZone": "DL00000207-Rajokari"
+  },
+  {
+    "transportationZone": "DL00000208-Jhalawar"
+  },
+  {
+    "transportationZone": "DN00000000-Dadra And Nagar Hav."
+  },
+  {
+    "transportationZone": "GA00000001-Goa"
+  },
+  {
+    "transportationZone": "GA00000002-Ponda"
+  },
+  {
+    "transportationZone": "GA00000003-Panjim"
+  },
+  {
+    "transportationZone": "GJ00000000-Gujarat"
+  },
+  {
+    "transportationZone": "GJ00000001-Ahmedabad"
+  },
+  {
+    "transportationZone": "GJ00000002-Amreli"
+  },
+  {
+    "transportationZone": "GJ00000003-Anand"
+  },
+  {
+    "transportationZone": "GJ00000004-Anjar"
+  },
+  {
+    "transportationZone": "GJ00000005-Ankleshwar"
+  },
+  {
+    "transportationZone": "GJ00000006-Vastral"
+  },
+  {
+    "transportationZone": "GJ00000007-Bardoli"
+  },
+  {
+    "transportationZone": "GJ00000008-Bharuch"
+  },
+  {
+    "transportationZone": "GJ00000009-Bhavnagar"
+  },
+  {
+    "transportationZone": "GJ00000010-Bhuj"
+  },
+  {
+    "transportationZone": "GJ00000011-Dahod"
+  },
+  {
+    "transportationZone": "GJ00000012-Deesa"
+  },
+  {
+    "transportationZone": "GJ00000013-Delhi Darwaja, Ahm"
+  },
+  {
+    "transportationZone": "GJ00000014-Gadhi Road"
+  },
+  {
+    "transportationZone": "GJ00000015-Gandhidham"
+  },
+  {
+    "transportationZone": "GJ00000016-Himmatnagar"
+  },
+  {
+    "transportationZone": "GJ00000017-Jamnagar"
+  },
+  {
+    "transportationZone": "GJ00000018-Mehsana"
+  },
+  {
+    "transportationZone": "GJ00000019-Morbi"
+  },
+  {
+    "transportationZone": "GJ00000020-Navsari"
+  },
+  {
+    "transportationZone": "GJ00000021-Odhav"
+  },
+  {
+    "transportationZone": "GJ00000022-Palanpur"
+  },
+  {
+    "transportationZone": "GJ00000023-Rajkot"
+  },
+  {
+    "transportationZone": "GJ00000024-Rilifroad"
+  },
+  {
+    "transportationZone": "GJ00000025-Sarkhej"
+  },
+  {
+    "transportationZone": "GJ00000026-Surat"
+  },
+  {
+    "transportationZone": "GJ00000027-Surendranagar"
+  },
+  {
+    "transportationZone": "GJ00000028-Tathithaiya"
+  },
+  {
+    "transportationZone": "GJ00000029-Thaltej, Ahm"
+  },
+  {
+    "transportationZone": "GJ00000030-Vadodara"
+  },
+  {
+    "transportationZone": "GJ00000031-Valsad"
+  },
+  {
+    "transportationZone": "GJ00000032-Vapi"
+  },
+  {
+    "transportationZone": "GJ00000033-Kumbhariya"
+  },
+  {
+    "transportationZone": "GJ00000034-Kutch"
+  },
+  {
+    "transportationZone": "GJ00000035-Visnagar"
+  },
+  {
+    "transportationZone": "GJ00000036-Junagadh"
+  },
+  {
+    "transportationZone": "GJ00000037-Dhragendra"
+  },
+  {
+    "transportationZone": "GJ00000038-Gir Somnath"
+  },
+  {
+    "transportationZone": "GJ00000039-Jagana Palanpur"
+  },
+  {
+    "transportationZone": "GJ00000040-Sabarkantha"
+  },
+  {
+    "transportationZone": "GJ00000041-Kodinar"
+  },
+  {
+    "transportationZone": "GJ00000042-Banaskantha"
+  },
+  {
+    "transportationZone": "GJ00000043-Porbandar"
+  },
+  {
+    "transportationZone": "GJ00000044-Arvalli"
+  },
+  {
+    "transportationZone": "GJ00000045-Banas Kantha"
+  },
+  {
+    "transportationZone": "GJ00000046-Chhotaudepur"
+  },
+  {
+    "transportationZone": "GJ00000047-Dadra And Nagar Have"
+  },
+  {
+    "transportationZone": "GJ00000048-Dang"
+  },
+  {
+    "transportationZone": "GJ00000049-Devbhumi Dwarka"
+  },
+  {
+    "transportationZone": "GJ00000050-Diu"
+  },
+  {
+    "transportationZone": "GJ00000051-Dohad"
+  },
+  {
+    "transportationZone": "GJ00000052-Gandhinagar"
+  },
+  {
+    "transportationZone": "GJ00000053-Kachchh"
+  },
+  {
+    "transportationZone": "GJ00000054-Kheda"
+  },
+  {
+    "transportationZone": "GJ00000055-Mahesana"
+  },
+  {
+    "transportationZone": "GJ00000056-Mahisagar"
+  },
+  {
+    "transportationZone": "GJ00000057-Narmada"
+  },
+  {
+    "transportationZone": "GJ00000058-Panch Mahals"
+  },
+  {
+    "transportationZone": "GJ00000059-Patan"
+  },
+  {
+    "transportationZone": "GJ00000060-Sabar Kantha"
+  },
+  {
+    "transportationZone": "GJ00000061-Tad"
+  },
+  {
+    "transportationZone": "GJ00000062-Tapi"
+  },
+  {
+    "transportationZone": "GJ00000063-Ahmedabad"
+  },
+  {
+    "transportationZone": "GJ00000064-Dahod"
+  },
+  {
+    "transportationZone": "GJ00000065-Sarkhej"
+  },
+  {
+    "transportationZone": "GJ00000066-Bardoli"
+  },
+  {
+    "transportationZone": "GJ00000067-Deesa"
+  },
+  {
+    "transportationZone": "GJ00000068-Kutch"
+  },
+  {
+    "transportationZone": "GJ00000069-Odhav"
+  },
+  {
+    "transportationZone": "GJ00000070-Vapi"
+  },
+  {
+    "transportationZone": "GJ00000071-Kumbhariya"
+  },
+  {
+    "transportationZone": "GJ00000072-Anjar"
+  },
+  {
+    "transportationZone": "GJ00000073-Mehsana"
+  },
+  {
+    "transportationZone": "GJ00000074-Palanpur"
+  },
+  {
+    "transportationZone": "GJ00000075-Tathithaiya"
+  },
+  {
+    "transportationZone": "GJ00000076-Gadhi Road"
+  },
+  {
+    "transportationZone": "GJ00000077-Vastral"
+  },
+  {
+    "transportationZone": "GJ00000078-Bhuj"
+  },
+  {
+    "transportationZone": "GJ00000079-Ankleshwar"
+  },
+  {
+    "transportationZone": "GJ00000080-Delhi Darwaja, Ahm"
+  },
+  {
+    "transportationZone": "GJ00000081-Gujarat"
+  },
+  {
+    "transportationZone": "GJ00000082-Rilifroad"
+  },
+  {
+    "transportationZone": "GJ00000083-Himmatnagar"
+  },
+  {
+    "transportationZone": "GJ00000084-Gandhidham"
+  },
+  {
+    "transportationZone": "GJ00000085-Thaltej, Ahm"
+  },
+  {
+    "transportationZone": "GJ00000086-Visnagar"
+  },
+  {
+    "transportationZone": "GJ00000087-Dhragendra"
+  },
+  {
+    "transportationZone": "GJ00000088-Jagana Palanpur"
+  },
+  {
+    "transportationZone": "GJ00000089-Sabarkantha"
+  },
+  {
+    "transportationZone": "GJ00000090-Kodinar"
+  },
+  {
+    "transportationZone": "GJ00000091-Banaskantha"
+  },
+  {
+    "transportationZone": "HP00000000-Himachal Pradesh"
+  },
+  {
+    "transportationZone": "HP00000001-Parwanoo"
+  },
+  {
+    "transportationZone": "HP00000002-Baddi"
+  }
+]
