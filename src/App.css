@@ -31,3 +31,14 @@ input::-webkit-inner-spin-button {
 -webkit-appearance: none;
 margin: 0;
 }
+
+.view-table{
+  padding: 1%;
+}
+.view-table .css-nfmglb-MuiTableCell-root{
+  padding: 0px !important;
+}
+
+.view-table .css-hyum1k-MuiToolbar-root{
+  max-height: 55px !important;
+}

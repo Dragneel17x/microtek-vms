@@ -109,6 +109,8 @@ function Login() {
 			});
 	};
 
+
+
 	return (
 		<div className="logi-main">
 			<div className="logi-main-left">
@@ -143,7 +145,7 @@ function Login() {
 									}}
 								/>
 							</div>
-							<div className="logi-forget-link"></div>
+							<div style={{marginBottom:'10px'}} className="logi-forget-link"><a href={process.env.REACT_APP_FORGOT_URL}>Change/ ForgetPassword?</a></div>
 						</div>
 						<div className="logi-buttons-main">
 							<button

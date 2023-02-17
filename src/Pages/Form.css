@@ -6,19 +6,40 @@
 
 }
 
+
 .form-main{ 
-    padding: 20px;
     min-height: 100%;
     min-width: 100%;
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    border-radius: 10px;
-   border: 1PX solid #adadb1;
-
+    display: grid;
+    border-radius: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    align-items:end;
 }
+@media only screen and (max-width: 1370px) {
+   .form-main{
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+  }
+@media only screen and (max-width: 900px) {
+   .form-main{
+    grid-template-columns: 1fr 1fr;
+   }
+  }
+@media only screen and (max-width: 600px) {
+   .form-main{
+    grid-template-columns: 1fr;
+    padding: 2%;
+   }
+  }
 
+  
+  .customer-submit-button{
+    width: 200px;
+    margin-top: 40px;
+}
 
 .customer_name{
     display: flex;
@@ -46,4 +67,101 @@
 
 .view {
     padding: 5px;
+}
+  .customer-submit-button{
+        width: 200px;
+        margin-top: 40px;
+  }
+
+.customer_name{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    gap: 30px;
+   border: 1px solid #d4d4d8;
+   border-radius: 5px;
+   flex-wrap: wrap  ;
+
+   
+}
+.customer_name::part(base){
+    min-width: 100%;
+}
+.customer_name> *{
+   flex-grow: 1;
+}
+
+
+.helptext::part(form-control-help-text){
+    color: rgb(245, 0, 0);
+}
+
+.view {
+    padding: 5px;
+}
+
+.customer-form-data{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    gap: 10px;
+}
+.cutomer-form-data-inner{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    gap: 5px;
+    border-bottom: 1px solid rgb(215, 215, 215);
+
+}
+
+/*////////////////////////////*/
+
+  .customer-submit-button{
+        width: 200px;
+        margin-top: 40px;
+  }
+
+.customer_name{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    gap: 30px;
+   border: 1px solid #d4d4d8;
+   border-radius: 5px;
+   flex-wrap: wrap  ;
+
+   
+}
+.customer_name::part(base){
+    min-width: 100%;
+}
+.customer_name> *{
+   flex-grow: 1;
+}
+
+
+.helptext::part(form-control-help-text){
+    color: rgb(245, 0, 0);
+}
+
+.view {
+    padding: 5px;
+}
+
+.customer-form-data{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    gap: 10px;
+}
+.cutomer-form-data-inner{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    gap: 5px;
+    border-bottom: 1px solid rgb(215, 215, 215);
+
 }

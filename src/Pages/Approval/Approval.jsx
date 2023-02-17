@@ -82,7 +82,10 @@ function Approval() {
 	const [approverRemark, setApproverRemark] = useState("");
 	return (
 		<div style={{ padding: '10px 20px' }}>
+			<div className="view-table">
 			<MUIDataTable options={vendor_options} title="Vendor Form Approvals" data={vendorApprovals} columns={vendor_columns} />
+
+			</div>
 			<SlDialog label="Dialog" open={vendorApprovalDialog} style={{ "--width": "50vw" }} onSlAfterHide={() => setVendorApprovalDialog(false)}>
 				Data Dikhana hai
 				<SlInput

@@ -121,8 +121,8 @@ function Form() {
       .catch((err) => {
         console.log(err);
       })
-  },[])
-  
+  }, [])
+
 
   useQuery("get-vendor-grp", () => {
     axios({
@@ -288,9 +288,10 @@ function Form() {
   }
   return (
     <div className="content_main">
-      <form onSubmit={handleSubmit} className="form-main">
-        {/*         Vendor Group Mapping */}
-        <SlSelect
+      <form onSubmit={handleSubmit} >
+       <div className="form-main">
+         {/*         Vendor Group Mapping */}
+         <SlSelect
           required
           label="Select Vendor Group"
           onSlChange={(e) => {
@@ -309,185 +310,176 @@ function Form() {
 
         {/*         Vendor NAME */}
 
-        <div className="input-field-main customer_name">
-          <SlInput
-            className="helptext"
-            required
-            pattern="^([A-Z]|[a-z]| )+$"
-            name="vendor_name"
-            helpText={error.vendor_name ? "" : "wrong entry"}
-            value={formData.vendor_name}
-            maxlength={40}
-            onSlInput={(e) => {
-              validCheck(e.target.name, e.target.value);
-              setFormData({ ...formData, vendor_name: e.target.value });
-            }}
-            label="Vendor Name"
-          />
-          <SlInput
-            maxlength={40} z
-            className="helptext"
-            pattern="^([A-Z]|[a-z]| )+$"
-            name="vendor_name_op1"
-            helpText={error.vendor_name_op1 ? "" : "wrong entry"}
-            value={formData.vendor_name_op1}
-            onSlInput={(e) => {
-              validCheck(e.target.name, e.target.value);
-              setFormData({ ...formData, vendor_name_op1: e.target.value });
-            }}
-            label="Vendor Name Optional"
-          />
-        </div>
 
-        {/*             Vendor Address Input */}
+        <SlInput
+          className="helptext"
+          required
+          pattern="^([A-Z]|[a-z]| )+$"
+          name="vendor_name"
+          helpText={error.vendor_name ? "" : "wrong entry"}
+          value={formData.vendor_name}
+          maxlength={40}
+          onSlInput={(e) => {
+            validCheck(e.target.name, e.target.value);
+            setFormData({ ...formData, vendor_name: e.target.value });
+          }}
+          label="Vendor Name"
+        />
+        <SlInput
+          maxlength={40} z
+          className="helptext"
+          pattern="^([A-Z]|[a-z]| )+$"
+          name="vendor_name_op1"
+          helpText={error.vendor_name_op1 ? "" : "wrong entry"}
+          value={formData.vendor_name_op1}
+          onSlInput={(e) => {
+            validCheck(e.target.name, e.target.value);
+            setFormData({ ...formData, vendor_name_op1: e.target.value });
+          }}
+          label="Vendor Name Optional"
+        />
+        <SlInput
+          required
+          onSlInput={(e) => {
+            setFormData({ ...formData, vendor_address: e.target.value });
+          }}
+          label="Vendor Address"
+        />
+        <SlInput
+          onSlInput={(e) => {
+            setFormData({ ...formData, vendor_address_op1: e.target.value });
+          }}
+          label="Address Optional 1"
+        />
+        <SlInput
+          onSlInput={(e) => {
+            setFormData({ ...formData, vendor_address_op2: e.target.value });
+          }}
+          label="Address optional 2"
+        />
+        <SlInput
+          onSlInput={(e) => {
+            setFormData({ ...formData, vendor_address_op3: e.target.value });
+          }}
+          label="Address optional 3"
+        />
 
-        <div className="input-field-main customer_name">
-          <SlInput
-            required
-            onSlInput={(e) => {
-              setFormData({ ...formData, vendor_address: e.target.value });
-            }}
-            label="Vendor Address"
-          />
-          <SlInput
-            onSlInput={(e) => {
-              setFormData({ ...formData, vendor_address_op1: e.target.value });
-            }}
-            label="Address Optional 1"
-          />
-          <SlInput
-            onSlInput={(e) => {
-              setFormData({ ...formData, vendor_address_op2: e.target.value });
-            }}
-            label="Address optional 2"
-          />
-          <SlInput
-            onSlInput={(e) => {
-              setFormData({ ...formData, vendor_address_op3: e.target.value });
-            }}
-            label="Address optional 3"
-          />
-
-          {/*District*/}
-
-          {formData.vendor_group == "ZIRM - Vendor Import - Raw Material" ?
-            ("") : formData.vendor_group == "ZIMN -  Vendor Import - Maintainence" ? ("") : (<SlInput
-              required
-              disabled={formData.country == "India" ? true : false}
-              value={formData.district}
-              onSlInput={(e) => {
-                setFormData({ ...formData, district: e.target.value });
-              }}
-              label="District"
-            />)}
-
-          {/*City*/}
-
-
-          <SlInput
-            className="helptext"
+        {formData.vendor_group == "ZIRM - Vendor Import - Raw Material" ?
+          ("") : formData.vendor_group == "ZIMN -  Vendor Import - Maintainence" ? ("") : (<SlInput
             required
             disabled={formData.country == "India" ? true : false}
-            name="city"
-            helpText={error.city == true ? "" : "wrong entry"}
-            value={formData.city}
+            value={formData.district}
             onSlInput={(e) => {
-              validCheck(e.target.name, e.target.value);
-              setFormData({ ...formData, city: e.target.value });
+              setFormData({ ...formData, district: e.target.value });
             }}
-            label="City"
-          />
+            label="District"
+          />)}
 
-          {/*Postal Code*/}
-          <SlInput
-            className="helptext"
-            pattern="^[0-9]+$"
-            name="postal_code"
-            required
-            helpText={error.postal_code == true ? "" : "wrong entry"}
-            value={formData.postal_code}
-            onSlBlur={(e) => {
-              getPincodeDetails(e.target.value);
-            }}
-            onSlInput={(e) => {
-              validCheck(e.target.name, e.target.value);
-              setFormData({ ...formData, postal_code: e.target.value });
-              //getPincodeDetails(e.target.value)
-              /* let pinData = pincodeMapping.filter(item=>{return(item.pincode == e.target.value)}) */
+      
+        <SlInput
+          className="helptext"
+          required
+          disabled={formData.country == "India" ? true : false}
+          name="city"
+          helpText={error.city == true ? "" : "wrong entry"}
+          value={formData.city}
+          onSlInput={(e) => {
+            validCheck(e.target.name, e.target.value);
+            setFormData({ ...formData, city: e.target.value });
+          }}
+          label="City"
+        />
 
-              /* if(pinData?.length){
-                setFormData({ ...formData, postal_code: e.target.value, city: pinData[0].city, district: pinData[0].district });
-                return
-              }
-              else{
-                setFormData({ ...formData, postal_code: e.target.value, city: "", district: "" });
-                console.log({"invalid pincode" : e.target.value});
-                setError({ ...error, [e.target.name]: false });
-              } */
-            }}
-            label="Postal Code"
-          />
-          {/*           Country */}
+      
+        <SlInput
+          className="helptext"
+          pattern="^[0-9]+$"
+          name="postal_code"
+          required
+          helpText={error.postal_code == true ? "" : "wrong entry"}
+          value={formData.postal_code}
+          onSlBlur={(e) => {
+            getPincodeDetails(e.target.value);
+          }}
+          onSlInput={(e) => {
+            validCheck(e.target.name, e.target.value);
+            setFormData({ ...formData, postal_code: e.target.value });
+            //getPincodeDetails(e.target.value)
+            /* let pinData = pincodeMapping.filter(item=>{return(item.pincode == e.target.value)}) */
 
-          {formData.vendor_group == "ZIRM - Vendor Import - Raw Material" || formData.vendor_group == "ZIMN -  Vendor Import - Maintainence" ? (<SlSelect
-            required
-            disabled={false}
-            label="Select Country"
-            value={formData.country}
-            onSlInput={(e) => {
-              setSelectedCountry(e.target.value);
-              setFormData({ ...formData, country: e.target.value });
-            }}
-          >
-            {countryCodes?.map((item, i) => {
-              return (
-                <SlMenuItem key={`${i}c`} value={item.country}>
-                  {item.country}
-                </SlMenuItem>
-              );
-            })}
-          </SlSelect>) : (<SlSelect
+            /* if(pinData?.length){
+              setFormData({ ...formData, postal_code: e.target.value, city: pinData[0].city, district: pinData[0].district });
+              return
+            }
+            else{
+              setFormData({ ...formData, postal_code: e.target.value, city: "", district: "" });
+              console.log({"invalid pincode" : e.target.value});
+              setError({ ...error, [e.target.name]: false });
+            } */
+          }}
+          label="Postal Code"
+        />
+      
+
+        {formData.vendor_group == "ZIRM - Vendor Import - Raw Material" || formData.vendor_group == "ZIMN -  Vendor Import - Maintainence" ? (<SlSelect
+          required
+          disabled={false}
+          label="Select Country"
+          value={formData.country}
+          onSlInput={(e) => {
+            setSelectedCountry(e.target.value);
+            setFormData({ ...formData, country: e.target.value });
+          }}
+        >
+          {countryCodes?.map((item, i) => {
+            return (
+              <SlMenuItem key={`${i}c`} value={item.country}>
+                {item.country}
+              </SlMenuItem>
+            );
+          })}
+        </SlSelect>) : (<SlSelect
+          required
+          disabled={true}
+          label="Select Country"
+          value={"India"}
+          onSlInput={(e) => {
+            setSelectedCountry(e.target.value);
+            setFormData({ ...formData, country: e.target.value });
+          }}
+        >
+          {countryCodes?.map((item, i) => {
+            return (
+              <SlMenuItem key={`${i}c`} value={item.country}>
+                {item.country}
+              </SlMenuItem>
+            );
+          })}
+        </SlSelect>)}
+
+
+     
+
+        {formData.vendor_group == "ZIRM - Vendor Import - Raw Material" ?
+          ("") : formData.vendor_group == "ZIMN -  Vendor Import - Maintainence" ? ("") : (<SlSelect
             required
             disabled={true}
-            label="Select Country"
-            value={"India"}
-            onSlInput={(e) => {
-              setSelectedCountry(e.target.value);
-              setFormData({ ...formData, country: e.target.value });
+            label="Select Region/State Code"
+            value={formData.state_code}
+            onSlChange={(e) => {
+              setFormData({ ...formData, state_code: e.target.value });
             }}
           >
-            {countryCodes?.map((item, i) => {
+            {stateList?.map((item, i) => {
               return (
-                <SlMenuItem key={`${i}c`} value={item.country}>
-                  {item.country}
+                <SlMenuItem key={`sl${i}`} value={item.state}>
+                  {item.state}
                 </SlMenuItem>
               );
             })}
           </SlSelect>)}
 
-
-          {/*                       State/Region Code */}
-
-          {formData.vendor_group == "ZIRM - Vendor Import - Raw Material" ?
-            ("") : formData.vendor_group == "ZIMN -  Vendor Import - Maintainence" ? ("") : (<SlSelect
-              required
-              disabled={true}
-              label="Select Region/State Code"
-              value={formData.state_code}
-              onSlChange={(e) => {
-                setFormData({ ...formData, state_code: e.target.value });
-              }}
-            >
-              {stateList?.map((item, i) => {
-                return (
-                  <SlMenuItem key={`sl${i}`} value={item.state}>
-                    {item.state}
-                  </SlMenuItem>
-                );
-              })}
-            </SlSelect>)}
-
-          {/* {formData.cust_group !== "ZEXP - export customer" ? (
+        {/* {formData.cust_group !== "ZEXP - export customer" ? (
             <SlSelect
               required
               label="Select Region/State Code"
@@ -506,9 +498,6 @@ function Form() {
           ) : (
             ""
           )} */}
-        </div>
-
-        {/*C/O Person*/}
         <SlInput
           className="helptext"
           name="co_person"
@@ -523,7 +512,7 @@ function Form() {
           label="C/O Person"
         />
 
-        {/*         Mobile Number  */}
+  
 
         <SlInput
           required={true}
@@ -540,7 +529,7 @@ function Form() {
           }}
         />
 
-        {/*            email ID */}
+
 
         {formData.vendor_group == "ZEMP - Employee Vendor " ? (
           <SlInput
@@ -562,7 +551,7 @@ function Form() {
           />
         )}
 
-        {/*         Order Currency  */}
+
 
         {formData.vendor_group == "ZEMP - Employee Vendor " ? ("") : (
           <SlSelect
@@ -585,8 +574,6 @@ function Form() {
           </SlSelect>)}
 
 
-        {/*                 Company Code Mapping */}
-
         <SlSelect
           required
           label="Company Code"
@@ -603,7 +590,7 @@ function Form() {
           })}
         </SlSelect>
 
-        {/*           Purchasing organisation mapping  */}
+
 
         <SlSelect
           required
@@ -617,8 +604,7 @@ function Form() {
         </SlSelect>
 
 
-        {/*             Vendor Pay Term Mapping */}
-
+      
         <SlSelect
           required
           label="Pay Term"
@@ -748,11 +734,20 @@ function Form() {
           }}
         />) : ("")}
 
-
+<SlButton
+          onclick={() => {
+            setOpen(true);
+          }}
+        >
+          Upload file
+        </SlButton>
+        
+       </div>
 
 
 
         <SlButton
+        className="customer-submit-button"
           type="submit"
           variant="success"
           onClick={(e) => {
@@ -786,14 +781,9 @@ function Form() {
 
         {/*         // Upload Button */}
 
-        <SlButton
-          onclick={() => {
-            setOpen(true);
-          }}
-        >
-          Upload file
-        </SlButton>
-        <SlDialog
+      
+      </form>
+      <SlDialog
           label="Upload Files"
           open={open}
           onSlAfterHide={() => setOpen(false)}
@@ -859,35 +849,95 @@ function Form() {
             Close
           </SlButton>
         </SlDialog>
-      </form>
       <SlDialog
         label="Preview"
         open={confirmDialog}
         onSlAfterHide={() => setConfirmDialog(false)}
       >
         <div>
-          <h4 className = "view">Vendor Group: <span>{formData.vendor_group}</span></h4>
-          <h4 className = "view">Vendor Name: <span>{formData.vendor_name}  {formData.vendor_name_op1}</span></h4>
-          <h4 className = "view">Vendor Address: <span>{formData.vendor_address}  {formData.vendor_address_op1} {formData.vendor_address_op2} {formData.cust_address_op3}</span></h4>
-          <h4 className = "view">District: <span>{formData.district}</span></h4>
-          <h4 className = "view">City: <span>{formData.city}</span></h4>
-          <h4 className = "view">Postal Code: <span>{formData.postal_code}</span></h4>
-          <h4 className = "view">Country: <span>{formData.country}</span></h4>
-          <h4 className = "view">Region Code: <span>{formData.state_code}</span></h4>
-          <h4 className = "view">C/O Person: <span>{formData.co_person}</span></h4>
-          <h4 className = "view">Company Code: <span>{formData.company_code}</span></h4>
-          <h4 className = "view">Bank A/C No: <span>{formData.recon_acc}</span></h4>
-          <h4 className = "view">PayTerm: <span>{formData.pay_term}</span></h4>
-          <h4 className = "view">Mobile Number: <span>{formData.mobile_no}</span></h4>
-          <h4 className = "view">E-mail ID: <span>{formData.email_id}</span></h4>
-          <h4 className = "view">Company Code: <span>{formData.company_code}</span></h4>
-          <h4 className = "view">Purchasing Organization: <span>{formData.purchasing_org}</span></h4>
-          <h4 className = "view">Pay Term: <span>{formData.pay_term}</span></h4>
-          <h4 className = "view">Bank Account Number: <span>{formData.bank_acc_no}</span></h4>
-          <h4 className = "view">IFSC Code: <span>{formData.ifsc_code}</span></h4>
-          <h4 className = "view">Name on Account: <span>{formData.name_on_acc}</span></h4>
-          <h4 className = "view">GSTIN: <span>{formData.gstin}</span></h4>
-          <h4 className = "view">PAN: <span>{formData.pan}</span></h4>
+        <div className="Vendor-form-data">
+							<div className="cutomer-form-data-inner">
+								<h4>Vendor Group:</h4>
+								<span>{formData.vendor_group}</span>
+							</div>
+							<div className="cutomer-form-data-inner">
+								<h4>Vendor Name: </h4>
+								<span>
+									{formData.vendor_name} {formData.vendor_name_op}
+								</span>
+							</div>
+							<div className="cutomer-form-data-inner">
+								<h4>Vendor Address: </h4>
+								<span>
+									{formData.vendor_address} {formData.vendor_address_op1} {formData.vendor_address_op2}{' '}
+									{formData.vendor_address_op3}
+								</span>
+							</div>
+							<div className="cutomer-form-data-inner">
+								<h4>District:</h4>
+								<span>{formData.district}</span>
+							</div>
+							<div className="cutomer-form-data-inner">
+								<h4>City:</h4>
+								<span>{formData.city}</span>
+							</div>
+							<div className="cutomer-form-data-inner">
+								<h4>Postal Code:</h4>
+								<span>{formData.postal_code}</span>
+							</div>
+							<div className="cutomer-form-data-inner">
+								<h4>Country:</h4>
+								<span>{formData.country}</span>
+							</div>
+							<div className="cutomer-form-data-inner">
+								<h4>Region Code:</h4>
+								<span>{formData.state_code}</span>
+							</div>
+							<div className="cutomer-form-data-inner">
+								<h4>C/O Person:</h4>
+								<span>{formData.co_person}</span>
+							</div>
+							<div className="cutomer-form-data-inner">
+								<h4>Company Code:</h4>
+								<span>{formData.company_code}</span>
+							</div>
+							<div className="cutomer-form-data-inner">
+								<h4>PayTerm:</h4>
+								<span>{formData.pay_term}</span>
+							</div>
+							<div className="cutomer-form-data-inner">
+								<h4>Mobile Number:</h4>
+								<span>{formData.mobile_no}</span>
+							</div>
+							<div className="cutomer-form-data-inner">
+								<h4>Purchasing Organization:</h4>
+								<span>{formData.purchasing_org}</span>
+							</div>
+							<div className="cutomer-form-data-inner">
+								<h4>Bank Account Number:</h4>
+								<span>{formData.bank_acc_no}</span>
+							</div>
+							<div className="cutomer-form-data-inner">
+								<h4>IFSC Code:</h4>
+								<span>{formData.ifsc_code}</span>
+							</div>
+							<div className="cutomer-form-data-inner">
+								<h4>Name on Account:</h4>
+								<span>{formData.name_on_acc}</span>
+							</div>
+							<div className="cutomer-form-data-inner">
+								<h4>Company Code:</h4>
+								<span>{formData.company_code}</span>
+							</div>
+							<div className="cutomer-form-data-inner">
+								<h4>PAN:</h4>
+								<span>{formData.pan_number}</span>
+							</div>
+							<div className="cutomer-form-data-inner">
+								<h4>GSTIN:</h4>
+								<span>{formData.gstin}</span>
+							</div>
+          </div>
         </div>
         <SlCheckbox checked={declarationCheck} onSlChange={e => { setDeclarationCheck(e.target.checked) }}>
           I hereby confirm that the information entered is true to the best of
@@ -917,11 +967,10 @@ function Form() {
               })
               .catch((err) => {
                 console.log(err);
-                if(err?.response?.data?.message){
+                if (err?.response?.data?.message) {
                   toast.error(err?.response?.data?.message)
                 }
-                else
-                {
+                else {
                   toast.error("Some Unexpected error occurred \n Please try again.")
                 }
               });
